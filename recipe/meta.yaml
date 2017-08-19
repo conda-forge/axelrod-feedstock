@@ -1,6 +1,6 @@
 {% set name = "Axelrod" %}
-{% set version = "3.1.0" %}
-{% set sha256 = "c742d024aecb9fbee94a609adf89b6caf9cb37bd45499ef56a9ff7137d470b70" %}
+{% set version = "3.5.0" %}
+{% set sha256 = "aca1536b677bf9361932bd8d3579c52dec7644499c9f3211ad1494efa3863276" %}
 
 package:
   name: {{ name|lower }}
@@ -25,7 +25,6 @@ requirements:
     - python
     - numpy >=1.9.2
     - matplotlib >=1.4.2
-    - hypothesis >=3.2
     - tqdm >=3.4.0
     - prompt_toolkit >=1.0.7
     - scipy >=0.19.0
