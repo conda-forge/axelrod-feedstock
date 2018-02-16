@@ -1,6 +1,6 @@
 {% set name = "Axelrod" %}
-{% set version = "3.8.1" %}
-{% set sha256 = "845a710631d8da3890db75fb7f4a4de18fb7a0dd6e514d62993c3c5d5e2d8ee4" %}
+{% set version = "4.0.0" %}
+{% set sha256 = "9fed0d9e0915fcfb30b03048e771e39b8183c536243b0e42304f6995e4f6472d" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
   skip: true  # [py2k]
 
@@ -28,6 +28,10 @@ requirements:
     - tqdm >=3.4.0
     - prompt_toolkit >=1.0.7
     - scipy >=0.19.0
+    - dask >=0.11.0
+    - pandas >=0.18.1
+    - toolz >=0.8.0
+    - cloudpickle >=0.2.1
 
 test:
   imports:
