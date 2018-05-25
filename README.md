@@ -18,14 +18,16 @@ Python 3.5 and 3.6
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/axelrod-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/axelrod-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/axelrod-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/axelrod-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/axelrod-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/axelrod-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/axelrod-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/axelrod-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/axelrod-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/axelrod-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/axelrod-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/axelrod-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/axelrod/badges/version.svg)](https://anaconda.org/conda-forge/axelrod)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/axelrod/badges/downloads.svg)](https://anaconda.org/conda-forge/axelrod)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-axelrod-green.svg)](https://anaconda.org/conda-forge/axelrod) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/axelrod.svg)](https://anaconda.org/conda-forge/axelrod) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/axelrod.svg)](https://anaconda.org/conda-forge/axelrod) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/axelrod.svg)](https://anaconda.org/conda-forge/axelrod) |
 
 Installing axelrod
 ==================
