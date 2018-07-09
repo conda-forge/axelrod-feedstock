@@ -1,6 +1,6 @@
 {% set name = "Axelrod" %}
-{% set version = "4.2.0" %}
-{% set sha256 = "467405478dbbec8f06dc00fb063901a8ae47f1f3e534185004f7da4d73764c43" %}
+{% set version = "4.2.1" %}
+{% set sha256 = "3446641922278afaef9a4fe1de285537d3d80956b1904f81629bf85de611b727" %}
 
 package:
   name: {{ name|lower }}
