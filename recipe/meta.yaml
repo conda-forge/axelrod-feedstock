@@ -1,6 +1,6 @@
 {% set name = "Axelrod" %}
-{% set version = "4.4.0" %}
-{% set sha256 = "a29230b54c182a87b936df08225f95b24441e505eb810f1406b733d7073e6150" %}
+{% set version = "4.5.0" %}
+{% set sha256 = "bc6135291936bece3d458a0cbfdae50b647cd42134e4745331f8548d36f9a465" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
   skip: true  # [py2k]
 
