@@ -1,6 +1,6 @@
 {% set name = "Axelrod" %}
-{% set version = "4.5.0" %}
-{% set sha256 = "bc6135291936bece3d458a0cbfdae50b647cd42134e4745331f8548d36f9a465" %}
+{% set version = "4.9.1" %}
+{% set sha256 = "f803d76a60b41fcfaa7a0124ee1ad431d7c72a69dbd3f6038ebb33a394244700" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
   skip: true  # [py2k]
 
@@ -20,7 +20,7 @@ requirements:
   build:
     - python
     - setuptools
-  
+
   run:
     - python
     - numpy >=1.9.2
@@ -44,7 +44,7 @@ about:
   home: http://github.com/Axelrod-Python/Axelrod
   license: MIT
   license_file: LICENSE.txt
-  summary: 'Research tool for Iterated Prisoners Dilemma in Python'
+  summary: Research tool for Iterated Prisoners Dilemma in Python
 
   description: |
     Axelrod is a library for conducting research in Iterated Prisoner's
